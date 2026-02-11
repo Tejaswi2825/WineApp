@@ -62,4 +62,5 @@ if st.button("Predict Wine Quality"):
     # Predict
     prediction = model.predict(scaled_input)
 
+
     st.success(f"🍷 Predicted Wine Quality: **{int(prediction[0])}**")
